@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tools</title>
+    <link rel="stylesheet" href="../css files/tools.css" />
+  </head>
+  <body>
+    <h1>Custom themes.</h1>
+
+    <div id="themes">
+      <div class="first">
+        <p>Amour</p>
+      </div>
+
+      <div class="first">
+        <p>Argent</p>
+      </div>
+      <div class="first">
+        <p>Philosophie</p>
+      </div>
+      <div class="first">
+        <p>Aventure</p>
+      </div>
+      <div class="first">
+        <p>Mangas</p>
+      </div>
+      <div class="first">
+        <p>Nature</p>
+      </div>
+    </div>
+
+    <button>Apply</button>
+
+    <script>
+      const theme = document.querySelectorAll(".first");
+      theme.forEach((item) => {
+        item.addEventListener("click", () => {
+          item.classList.toggle("choice");
+        });
+      });
+    </script>
+  </body>
+</html>
