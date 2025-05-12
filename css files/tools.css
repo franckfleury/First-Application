@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-block: 3px;
+}
+#themes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.first {
+  width: 100%;
+  padding-block: 17px;
+  margin-block: 12px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.first p {
+  font-size: 1.4rem;
+  margin-left: 15px;
+}
+button {
+  color: aliceblue;
+  width: 100%;
+  font-size: 2rem;
+  padding-block: 12px;
+  margin-top: 80px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background-color: deepskyblue;
+  transition: 0.1s;
+}
+button:active {
+  color: deepskyblue;
+  background-color: aliceblue;
+}
+.choice {
+  color: white;
+  background-color: deepskyblue;
+}
